@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "__locale": "cpp",
+        "bitset": "cpp",
+        "ios": "cpp",
+        "istream": "cpp",
+        "new": "cpp",
+        "ostream": "cpp",
+        "streambuf": "cpp",
+        "typeinfo": "cpp",
+        "locale": "cpp"
+    }
+}
