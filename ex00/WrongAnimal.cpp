@@ -33,12 +33,6 @@ std::string  WrongAnimal::getType() const
 
 void WrongAnimal::makeSound() const
 {
-    if(type_ == "Cat")
-        std::cout << "meow" << std::endl;
-    else if(type_ == "Dog")
-        std::cout << "bowwow" << std::endl;
-    else
-        std::cout << "レビュー通してください" << std::endl;
-        
+    std::cout << "レビュー通してください" << std::endl;
 }
 

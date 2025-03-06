@@ -21,9 +21,9 @@ $(OBJS): $(SRCS)
 all: $(TARGET)
 
 fclean: clean
-	rm $(TARGET)
+	rm -f $(TARGET)
 
 clean:
-	rm $(OBJS)
+	rm -f $(OBJS)
 
 re: fclean all
