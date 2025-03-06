@@ -1,9 +1,8 @@
 #include "Animal.hpp"
 
-Animal::Animal(void)
+Animal::Animal(void):type_("Animal")
 {
-    std::cout << "Animal Constructor" << std::endl;
-    
+    std::cout << "Animal Constructor" << std::endl;   
 }
 
 Animal::Animal(Animal &animal)

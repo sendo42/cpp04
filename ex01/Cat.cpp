@@ -5,6 +5,7 @@ Cat::Cat(void): Animal()
     std::cout << "Cat Constructor create brain" << std::endl;
     brain = new Brain();
     type_ = "Cat";
+    brain->setBrain(" I want meal! ");   
 }
 
 Cat::Cat(Cat &cat)
@@ -24,6 +25,7 @@ Cat& Cat::operator=(const Cat &cat)
 Cat::~Cat()
 {
     std::cout << "Cat Destructor delete brain" << std::endl;
+    delete brain;
 }
 
 void Cat::makeSound() const

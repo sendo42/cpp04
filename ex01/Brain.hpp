@@ -8,6 +8,12 @@ class Brain
     public:
         std::string ideas[100];
         void print_ideas();
+        void setBrain(const std::string &idea);
+
+        Brain(void);
+        Brain(Brain &Brain);
+        Brain& operator=(const Brain &brain);
+        virtual ~Brain();
 
 };
 

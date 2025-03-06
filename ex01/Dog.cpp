@@ -3,8 +3,9 @@
 Dog::Dog(void): Animal()
 {
     std::cout << "Dog Constructor create brain" << std::endl;
-    type_ = "Dog";
     brain = new Brain();
+    type_ = "Dog";
+    brain->setBrain(" I want meal! ");
 }
 
 Dog::Dog(Dog &dog)
